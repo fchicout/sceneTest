@@ -5,7 +5,7 @@ function Player:new(o)
     x = 64, y = 250,
     vx = 400, vy = 0,
     jump_height = -300,
-    gravity = 250,
+    gravity = l,
     image = love.graphics.newImage("assets/images/p1_stand.png")
   }
   setmetatable(o, self)
